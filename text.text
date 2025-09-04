@@ -1,0 +1,7 @@
+grid ett uppbyggningsätt type some flex i css fast man bygger typ upp ett system om du tex ska göra product sidor så är grid bättre än flex 
+ 
+media queries de är formateringen utav css och designen på sidan vid vissa olika brytpunkter. man styr designen i olika breakpoints
+som om att du skulle göra lite ändringar för mobil eller ipad eller datorskärm beronend på om du vill att de ser ut på ett visst sätt.
+
+position om man lägger object på varandra om du tex har 2 bilder som du vill ska va på varandra eller en ska va lite över den andra.
+
