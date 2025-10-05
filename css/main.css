@@ -197,6 +197,7 @@
   justify-content: center;
   align-items: center;
   border: none;
+  margin-top: 10px;
   background-color: var(--header-button-color);
   font-size: 1rem;
   border-radius: 5px 5px 5px 5px;
@@ -219,13 +220,34 @@
       & span{
         display: block;
       }
-
+      .p-text{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
       .p-and-img{
         display: flex;
         align-items: center;
         gap: 10px;
       }
     }
+    .learn-more-button-bottom{
+    color: var(--text-color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: var(--header-button-color);
+    font-size: 1rem;
+    border-radius: 5px 5px 5px 5px;
+    padding: 4px 8px 4px 8px;
+    height: 44px;
+    width: 159px;
+
+    .learn-more-img-bottom{
+    margin-left: 5px;
+  }
+}
     .top-part-img{
       .img-two{
         position: relative;
@@ -271,23 +293,7 @@
   margin: 0;
 
 }
-.learn-more-button-bottom{
-  color: var(--text-color-white);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: none;
-  background-color: var(--header-button-color);
-  font-size: 1rem;
-  border-radius: 5px 5px 5px 5px;
-  padding: 4px 8px 4px 8px;
-  height: 44px;
-  width: 159px;
 
-  .learn-more-img-bottom{
-    margin-left: 5px;
-  }
-}
 
   .subscribe{
     height: 222px;
